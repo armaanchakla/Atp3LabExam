@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+</head>
+<body>
+	<center>
+	<h1>Register Here</h1>
+	<form method="post" action="/login"> 
+		Username: <input type="text" name="username"> <br>
+		Password: <input type="password" name="password" ><br>
+		
+  		<p>UserType: </p>
+  		<input type="radio" id="admin" name="userType" value="admin">
+  		<label for="admin">Admin</label><br>
+  		<input type="radio" id="moderator" name="userType" value="moderator">
+		<label for="moderator">Moderator</label><br> <br>
+		<input type="submit" name="submit" value="Register" >
+	</form>
+
+	<br>
+	<a href="/">Home</a>
+	</center>
+</body>
+</html>
